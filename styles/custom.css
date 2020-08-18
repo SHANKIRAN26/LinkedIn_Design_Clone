@@ -1,0 +1,203 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* .box-text{
+  width: 40vw;
+  height: 10vh;
+  text-decoration: none;
+  text-align: left;
+  border: 2px solid grey;
+  box-shadow: 10px 10px 8px #888888;
+} */
+a{
+  color: black;
+}
+
+.big {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+.right{
+  position: relative;
+  right: 0;
+}
+
+.bold-font{
+  font-size: 40px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+
+.weight {
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.pill-btn{
+  background-color: #e6e5e4;
+  border: none;
+  color: #69737f;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.pill-btn:hover {
+  text-decoration: none;
+  color: #69737f;
+}
+
+.colorgray {
+  color: #69737f;
+}
+
+.brown {
+  color: #b24020;
+}
+
+.jobpost-bg {
+  background-color: #f1ece5;
+}
+
+.new-weight {
+  font-size: 36;
+  font-weight: 600;
+}
+
+#middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-outline-secondary {
+  color: #605e5c;
+  background-color: #f1ece5;
+  border-radius: 16px;
+}
+
+.btn-outline-secondary:hover {
+  color: #131312;
+  background-color: #c1bdb7;
+}
+
+.prev-next {
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.prev-next:hover {
+  background-color: #efefed;
+}
+
+.x {
+  padding: 5rem 0;
+}
+
+.btn-primary {
+  border-radius: 20px;
+}
+
+.footer-bg {
+  background: url("Images/footer.svg");
+}
+
+.last-footer li{
+  list-style: none;
+}
+
+footer li {
+  list-style: none;
+}
+
+.small {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+/* SHANKIRAN P M */
+.logo-color {
+  display: inline-block;
+  background-color: #0077b5;
+  color: white;
+  border: 1px solid #0077b5;
+  border-radius: 4px;
+  /* margin-top: -10px; */
+}
+
+
+.btn-linkedin {
+  background-color: #0073b1;
+  color: #ffffff;
+  width: 26vw;
+  height: 7vh;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: sans-serif;
+}
+.btn-linkedin:hover {
+  color: #ffffff;
+  background-color: #01527e;
+}
+
+.forgot:hover {
+  background-color: #d1edfa;
+}
+
+.footer-line {
+  position: fixed;
+  bottom: 1vh;
+  width: 100vw;
+  height: 10vh;
+
+}
+
+.flexible {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* max-width: 60vw; */
+  /* justify-content: center; */
+}
+
+.low {
+  font-weight: 300;
+}
+
+.pad-top {
+  padding-top: 100px;
+}
+
+.top {
+  position: fixed;
+  width: 100vw;
+  height: 8px;
+  top: 0;
+  background-color: #283e4a;
+}
+
+.white {
+  color: white;
+}
+
+.logo-signup {
+  display: inline-block;
+  color: black;
+  background-color: white;
+}
+
+.btn-signup {
+  background-color: #00a0dc;
+}
+
+.bg-fb {
+  background-color: #425597;
+}
